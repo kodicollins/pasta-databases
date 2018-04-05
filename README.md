@@ -2,8 +2,13 @@
 databases for mafft-homologs
 
 This repository contains the databases (and sub-method) needed for some sub-aligner in PASTA
-
 See `https://github.com/smirarab/pasta/` for the most up to date version of PASTA and instructions
+
+How to install:
+Follow the instructions in the `README.md` within PASTA for downloading PASTA and the appropriate sate-tools (linux or mac)
+Change directory to sate-tools-linux (or sate-tools-mac)
+Download this repository `git clone https://github.com/kodicollins/pasta-databases`
+Continue with the installation instructions within PASTA
 
 The databases are for use in MAFFT-Homologs
 Katoh, K. and Standley, D. M. (2013). MAFFT multiple sequence alignment software
@@ -28,6 +33,6 @@ See `http://nebc.nerc.ac.uk/bioinformatics/documentation/blast/blastall.html` fo
 If you would like to use anoter database with MAFFT-Homologs inside of PASTA, you will need to add the datasets to this folder,
 and you will need to edit the homologs file within sate-tools-linux (or sate-tools-mac) and change the localdb accordingly
 
-localdb = "$CONTRALIGN_DIR/pasta-databases/swissprot" <- this line specifically
+`localdb = "$CONTRALIGN_DIR/pasta-databases/swissprot"` <- this line specifically
 the last part ('swissprot') should be the beginning of the database files you would mafft-homologs to use.
 
