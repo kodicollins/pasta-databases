@@ -37,4 +37,4 @@ and you will need to edit the homologs file within sate-tools-linux (or sate-too
 the last part ('swissprot') should be the beginning of the database files you would mafft-homologs to use.
 
 Note:
-If you decide to add these databases after installing PASTA, you can either reinstall PASTA to make the necessary connections or untar the databases and add a symlink to the pasta/bin directory manually.
+If you decide to add these databases after installing PASTA, you can either reinstall PASTA or just untar the files manually.
